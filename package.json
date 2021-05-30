@@ -1,0 +1,25 @@
+{
+  "name": "s32-backend",
+  "version": "1.0.0",
+  "description": "s32 backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydensar/s32-backend.git"
+  },
+  "author": "jaydensar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaydensar/s32-backend/issues"
+  },
+  "homepage": "https://github.com/jaydensar/s32-backend#readme",
+  "type": "module",
+  "dependencies": {
+    "enmap": "^5.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
