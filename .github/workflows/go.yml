@@ -23,4 +23,5 @@ jobs:
       
     - name: Upload artifact
       uses: actions/upload-artifact@v2.2.4
-      path: site32-backend
+      with:
+        path: site32-backend
