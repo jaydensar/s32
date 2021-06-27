@@ -59,7 +59,6 @@ func main() {
 		).Exec(ctx)
 
 		if err == nil {
-			log.Println(err)
 			return c.JSON(200, player)
 		}
 
@@ -101,7 +100,6 @@ func main() {
 		).Exec(ctx)
 
 		if err == nil {
-			log.Println(err)
 			return c.NoContent(204)
 		}
 
@@ -113,7 +111,6 @@ func main() {
 		).Exec(ctx)
 
 		if err == nil {
-			log.Println(err)
 			return c.NoContent(204)
 		}
 
